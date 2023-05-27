@@ -10,4 +10,8 @@ class Magazine
         @category = category
         @@all << self
     end   
+
+    def self.all
+        @@all
+    end
 end
