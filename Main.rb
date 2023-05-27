@@ -1,8 +1,5 @@
-require_relative "Magazine"
-require_relative "Author"
-require_relative "Article"
-
-
-
+require_relative "author"
+require_relative "magazine"
+require_relative "article"
 
 
