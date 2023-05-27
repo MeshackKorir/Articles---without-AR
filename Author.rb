@@ -6,11 +6,10 @@ class Author
     end
 
     def articles
-        
+        Article.all.select { |article| article.author == self }
     end
 
     def magazine
-        array.map {}
+        articles.map { |article| article.magazine }.uniq
     end
-
 end    
