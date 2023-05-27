@@ -16,5 +16,10 @@ class Article
     end    
 
     def magazine
-        
+        @magazine = magazine
+    end    
+
+    def self.all
+        @@all
+    end    
 end    
